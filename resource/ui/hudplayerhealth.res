@@ -5,8 +5,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c0"		
-		"ypos"			"c0"
+		"xpos"			"c-350"		
+		"ypos"			"c5"
 		"zpos"			"2"
 		"wide"			"250"
 		"tall"			"120"
@@ -20,8 +20,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"75"
-		"xpos_minmode"	"60"
+		"xpos"			"21" //you stupid
 		"ypos"			"35"
 		"zpos"			"4"
 		"wide"			"51"
@@ -34,7 +33,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"73"
+		"xpos"			"19"
 		"xpos_minmode"	"58"
 		"ypos"			"33"
 		"zpos"			"3"
