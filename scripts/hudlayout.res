@@ -17,6 +17,8 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	"525"	[$WIN32]
+		"xpos"	"r95"	[$WIN32]
+		"xpos"	"r95"	[$WIN32]
 		"ypos"	"290"	[$WIN32]
 		"wide"	"94"
 		"tall"	"45"
