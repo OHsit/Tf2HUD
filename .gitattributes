@@ -13,5 +13,4 @@
 * text=auto
 
 # Do not export these files on download
-# Don't ignore dev folder, backups are created there thru PowerScript
 {.gitattributes,.gitignore,.github,.vscode} export-ignore
