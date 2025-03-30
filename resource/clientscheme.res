@@ -18,6 +18,12 @@ Scheme
 	//////////////////////// COLORS ///////////////////////////
 	Colors
 	{
+
+        //custom colors for this hud
+		"EllGreen"            "0 180 0 255"
+		"EllCyan"             "49 140 231 255"
+		"KRed"                "225 0 0 255"
+
 		// base colors
 		"Orange"			"178 82 22 255"
 		"OrangeDim"			"178 82 22 120"
@@ -3037,6 +3043,7 @@ Scheme
 		}
 		/////////INSTLATION OF THE STUPID FONTS THAT I HATE!/////////////////
 		//rays fire tutorial goes crazy!!111111111 check and guess
+		//Adult Swim font
 		ASFont12
 		{
 			"1"
@@ -3102,6 +3109,76 @@ Scheme
 			"1"
 			{
 				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"48"
+				"antialias" "1"
+			}
+		}
+//VCR OSD Mono
+		VCRFont12
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+
+		VCRFont16
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"16"
+				"antialias" "1"
+			}
+		}
+
+		VCRFont24
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+
+		VCRFont32
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"32"
+				"antialias" "1"
+			}
+		}
+
+		VCRFont36
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"36"
+				"antialias" "1"
+			}
+		}
+
+		VCRFont42
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"42"
+				"antialias" "1"
+			}
+		}
+
+		VCRFont48
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
 				"tall"		"48"
 				"antialias" "1"
 			}
