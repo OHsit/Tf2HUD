@@ -23,6 +23,8 @@ Scheme
 		"EllGreen"            "0 180 0 255"
 		"EllCyan"             "49 140 231 255"
 		"KRed"                "225 0 0 255"
+		"MNightBlue"          "25 25 112 255"
+		"FERed"               "206 32 41 255"
 
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -3044,6 +3046,24 @@ Scheme
 		/////////INSTLATION OF THE STUPID FONTS THAT I HATE!/////////////////
 		//rays fire tutorial goes crazy!!111111111 check and guess
 		//Adult Swim font
+		ASFont4
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"4"
+				"antialias" "1"
+			}
+		}
+		ASFont8
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
 		ASFont12
 		{
 			"1"
@@ -3192,6 +3212,278 @@ Scheme
 			"tall"		"24"
 			"antialias" "1"
 			"outline"	"1"
+		}
+	}
+
+	//Asimov font
+	"Asimov4"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"4"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov8"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"8"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov12"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"12"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov16"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"16"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov20"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"20"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov24"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"24"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov28"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"28"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov32"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"32"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov36"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"36"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov40"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"40"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov44"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"44"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov48"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"48"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Asimov52"
+	{
+		"1"
+		{
+			"name"		"Asimov"
+			"tall"		"52"
+			"antialias" 	"1"
+		}
+	}
+
+	//Futrura
+	"Futura4"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"4"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura8"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"8"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura12"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"12"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura16"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"16"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura20"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"20"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura24"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"24"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura28"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"28"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura32"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"32"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura36"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"36"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura40"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"40"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura44"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"44"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura48"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"48"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura52"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"52"
+			"antialias" 	"1"
+		}
+	}
+	
+	"Futura56"
+	{
+		"1"
+		{
+			"name"		"Futura No2 D Demi Bold"
+			"tall"		"56"
+			"antialias" 	"1"
 		}
 	}
 
@@ -6031,6 +6323,16 @@ Scheme
 		{
 			"font" "B612-Bold.ttf"
 			"name" "B612 Bold"
+		}
+		"21"
+		{
+			"font" "Asimov.ttf"
+			"name" "Asimov"
+		}
+		"22"
+		{
+			"font" "Futura.ttf"
+			"name" "Futura No2 D Demi Bold"
 		}
 	}
 }

@@ -59,6 +59,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"font"			"ASFont16"
+		"fgcolor_override" "TanDark"
 	}
 	
 	"ChargeMeter"

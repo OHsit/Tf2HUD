@@ -209,7 +209,6 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	Animate PlayerStatusHealthValue         fgcolor     EllCyan     Linear 0.0 0.0
-	Animate PlayerStatusHealthValue         fgcolor     "49 140 231 255" Linear 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -235,7 +234,6 @@ event HudHealthDyingPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.075
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.125 0.075
 	Animate PlayerStatusHealthValue    fgcolor  KRed Linear 0.0 0.0
-	Animate PlayerStatusHealthValue    fgcolor  "225 0 0 255" Linear 0.0 0.0
 	
 	RunEvent HudHealthDyingPulseLoop	0.25
 }
@@ -268,11 +266,6 @@ event HudLowAmmoPulse
 	Animate AmmoNoClip FgColor KRed Linear 1.3 0.3
 	
 	RunEvent HudLowAmmoPulseLoop	1.35
-	Animate AmmoInClip FgColor "225 0  0 255" Linear 0.0 0.0
-	Animate AmmoInReserve FgColor "255 0 0 255" Linear 0.0 0.0
-	Animate AmmoNoClip FgColor "225 0  0 255" Linear 0.0 0.0
-	
-	RunEvent HudLowAmmoPulseLoop	0.25
 }
 
 // call to loop HudLowAmmoPulse
@@ -288,6 +281,7 @@ event HudLowAmmoPulseStop
 	Animate AmmoNoClip FgColor White Linear 0.0 0.0
 	StopEvent HudLowAmmoPulse 0.0
 	StopEvent HudLowAmmoPulseLoop 0.0
+
 }
 
 //===========================================
@@ -462,6 +456,7 @@ event HudMedicChargedStop
 {
 	StopEvent HudMedicCharged 0.0
 	StopEvent HudMedicChargedLoop 0.0
+	
 	Animate	ChargeMeter 	FgColor		"White"		Linear 0.0 0.0001
 }
 
