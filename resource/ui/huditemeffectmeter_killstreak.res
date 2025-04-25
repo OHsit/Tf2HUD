@@ -5,10 +5,10 @@
 		"fieldName"		"HudItemEffectMeter"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"210"	[$WIN32]
-		"ypos"			"284"	[$WIN32]
-		"wide"			"f0"
-		"tall"			"480"
+		"xpos"			"300"	[$WIN32]
+		"ypos"			"350"	[$WIN32]
+		"wide"			"50"
+		"tall"			"16"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -32,6 +32,21 @@
 		"teambg_3"		"../hud/misc_ammo_area_blue"
 		"teambg_3_lodef"	"../hud/misc_ammo_area_blue_lodef"				
 	}
+
+	"KillStreakIcon"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"KillStreakIcon"
+		"xpos"			"28"
+		"ypos"			"-4"
+		"zpos"			"3"
+		"wide"			"24"
+		"tall"			"24"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"../hud/leaderboard_streak"
+		"scaleImage"	"1"
+	}
 	
 	"ItemEffectMeterLabel"
 	{
@@ -44,8 +59,8 @@
 		"tall"					"15"
 		"autoResize"			"1"
 		"pinCorner"				"2"
-		"visible"				"1"
-		"enabled"				"1"
+		"visible"				"0"
+		"enabled"				"0"
 		"tabPosition"			"0"
 		"labelText"				"#TF_KillStreak"
 		"textAlignment"			"center"
@@ -80,8 +95,8 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"60"
-		"ypos"					"10"
+		"xpos"					"-15"
+		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"60"
 		"tall"					"20"	
@@ -93,6 +108,23 @@
 		"textAlignment"			"north"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"ASFont24"
+		"font"					"ASFont16"
+	}
+
+	"Box"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Box"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"0"
+		"wide"			"f0"
+		"tall"			"f0"
+		"fillcolor"		"0 0 0 200"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"draw_corner_height" "11"
 	}
 }

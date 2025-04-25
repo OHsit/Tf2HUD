@@ -64,7 +64,45 @@
 		"fillcolor"		"0 0 0 200"
 	}
 
-	"TeamIndicator"
+	"BGBlu"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGBlu"
+		"xpos"			"120"
+		"ypos"			"2"
+		"zpos"			"10"
+		"wide"			"30"
+		"tall"			"10"
+		"visible" 		"1" 
+		"enabled" 		"1"
+
+		"backgroundtype"		"2"
+		"proportionaltoparent"	"1"
+			
+		"fillcolor"		"KapiBLUTeam"
+	}
+
+	"BGRed"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BGRed"
+		"xpos"			"150"
+		"ypos"			"2"
+		"zpos"			"10"
+		"wide"			"30"
+		"tall"			"10"
+		"visible" 		"1" 
+		"enabled" 		"1"
+
+		"backgroundtype"		"2"
+		"proportionaltoparent"	"1"
+			
+		"fillcolor"		"FERed"
+	
+	}
+
+
+	 "TeamIndicator"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndicator"
@@ -75,8 +113,8 @@
 		"tall"	 		"3"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible" 		"1" 
-		"enabled" 		"1"
+		"visible" 		"0" 
+		"enabled" 		"0"
 		"image"			"../hud/color_panel_brown"
 		"scaleImage"		"1"
 		"teambg_1"		"../hud/color_panel_brown"

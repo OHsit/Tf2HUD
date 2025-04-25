@@ -276,8 +276,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"			"ObjectiveStatusTimePanel"
-		"xpos"				"c-55"
-		"ypos"				"0"	[$WIN32]
+		"xpos"				"c-200"
+		"ypos"				"0"	
 		"zpos"				"2"
 		"wide"				"400"
 		"tall"				"150"
@@ -290,7 +290,7 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"HudFontMedium"
+		"delta_item_font"		"Futura12"
 
 		if_match
 		{
@@ -314,7 +314,7 @@
 
 			if_match
 			{
-			"xpos"			"-145"
+			"xpos"			"-105"
 			"ypos"			"5"
 			}
 		}	
@@ -353,7 +353,7 @@
 			"zpos"			"1"
 
 			"color_portrait_bg_red"	"FERed"
-			"color_portrait_bg_blue"	"MNightBlue"
+			"color_portrait_bg_blue"	"KapiBLUTeam"
 			"color_portrait_bg_red_dead"	"0 0 0  255"
 			"color_portrait_bg_blue_dead"	"0 0 0 255"
 			"color_bar_health_high"	"White"
@@ -476,7 +476,7 @@
 				"tall"			"16"
 				"autoResize"	"0"
 				"pinCorner"		"0"
-				"visible"		"0"
+				"visible"		"1"
 				"enabled"		"1"
 				"image"			"../HUD/tournament_panel_brown"
 				"src_corner_height"	"22"				// pixels inside the image
@@ -625,8 +625,8 @@
 			"zpos"			"5"
 			"wide"			"56"
 			"tall"			"56"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/team_blue"
 			"scaleImage"		"1"
 		}
@@ -661,7 +661,7 @@
 			"enabled"		"1"
 			"image"			""
 			"scaleImage"	"1"	
-			"color_outline"	"52 48 45 255"
+			"color_outline"	"KapiBLUTeam"
 		}
 		"BlueLeaderAvatarBG"
 		{
@@ -674,7 +674,7 @@
 			"tall"			"39"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"bgcolor_override"	"117 107 94 255"
+			"bgcolor_override"	"KapiBLUTeam"
 		}
 		"BluePlayerList"
 		{
@@ -710,8 +710,8 @@
 			"tall"			"215"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"0"
+			"visible"		"1"
+			"enabled"		"1"
 			"border"		"Noborder"
 
 			if_large
@@ -764,8 +764,8 @@
 			"zpos"			"5"
 			"wide"			"70"
 			"tall"			"70"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			"../hud/team_Red"
 			"scaleImage"		"1"
 		}

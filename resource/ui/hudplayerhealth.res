@@ -5,14 +5,14 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"HudPlayerHealth"
-		"xpos"			"c-350"		
-		"ypos"			"c5"
-		"zpos"			"2"
-		"wide"			"250"
-		"tall"			"120"
-		"visible"		"1"
-		"enabled"		"1"	
-		"HealthBonusPosAdj"	"35"
+		"xpos"					  "0"	//"c-192" 
+		"ypos"					  "0"	//"330" 
+		"zpos"					  "10"
+		"wide"					  "f0"	//"192"
+		"tall"					  "f0"	//"60"
+		"visible"				  "1"
+		"enabled"				  "1" 
+		"HealthBonusPosAdj"	"0"
 		"HealthDeathWarning"	"0.49"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 	}	
@@ -20,11 +20,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImage"
-		"xpos"			"21" //you stupid
-		"ypos"			"35"
+		"xpos"			"247"
+		"ypos"			"287"
 		"zpos"			"4"
-		"wide"			"51"
-		"tall"			"51"
+		"wide"			"45"
+		"tall"			"45"
 		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"	
@@ -33,12 +33,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthImageBG"
-		"xpos"			"19"
-		"xpos_minmode"	"58"
-		"ypos"			"33"
+		"xpos"			"245"
+		"ypos"			"285"
 		"zpos"			"3"
-		"wide"			"55"
-		"tall"			"55"
+		"wide"			"49"
+		"tall"			"49"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"../hud/health_bg"
@@ -48,8 +47,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"18"	[$WIN32]
-		"ypos"			"33"	[$WIN32]
+		"xpos"			"242" 
+		"ypos"			"283"
 		"zpos"			"2"
 		"wide"			"55"	[$WIN32]
 		"tall"			"55"	[$WIN32]
@@ -62,18 +61,37 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"55"
-		"ypos"			"49"	[$WIN32]
+		"xpos"			"325"
+		"ypos"			"285"	[$WIN32]
 		"zpos"			"5"
-		"wide"			"150"
-		"tall"			"24"
+		"wide"			"200"
+		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%Health%"
-		"textAlignment"	"center"	
+		"textAlignment" "west" 
 		"font"			"ASFont32"
 		"fgcolor"		"White"
 	}
+	"PlayerStatusHealthValueShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"PlayerStatusHealthValueShadow"
+		"xpos"			"-2"
+		"ypos"			"-2"	
+		"zpos"			"5"
+		"wide"			"200"
+		"tall"			"50"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%Health%"
+		"textAlignment"	"west"	
+		"font"			"ASFont32"
+		"fgcolor"		"0 0 0 200"
+		"pin_to_sibling"		"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
+	}	
 	"PlayerStatusMaxHealthValue"
 	{
 		"ControlName"	"CExLabel"
@@ -89,13 +107,16 @@
 		"textAlignment"	"center"	
 		"font"			"ASFont16"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"		"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}
 	"PlayerStatusBleedImage"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusBleedImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
+		"xpos"			"0"
+		"xpos_minmode"	"0"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"32"
@@ -105,6 +126,9 @@
 		"scaleImage"	"1"	
 		"image"			"../vgui/bleed_drop"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"		"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
 	}
 	"PlayerStatusHookBleedImage"
 	{
@@ -190,8 +214,8 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatus_MedicUberBulletResistImage"
-		"xpos"			"85"
-		"xpos_minmode"	"70"
+		"xpos"			"0"
+		"xpos_minmode"	"0"
 		"ypos"			"0"
 		"zpos"			"7"
 		"wide"			"31"
@@ -201,6 +225,9 @@
 		"scaleImage"	"1"	
 		"image"			"../HUD/defense_buff_bullet_blue"
 		"fgcolor"		"TanDark"
+		"pin_to_sibling"		"PlayerStatusHealthValue"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"2"
 	}
 	"PlayerStatus_MedicUberBlastResistImage"
 	{

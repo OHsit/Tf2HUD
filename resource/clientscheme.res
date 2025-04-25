@@ -25,6 +25,7 @@ Scheme
 		"KRed"                "225 0 0 255"
 		"MNightBlue"          "25 25 112 255"
 		"FERed"               "206 32 41 255"
+		"KapiBLUTeam"         "129 161 212 255"
 
 		// base colors
 		"Orange"			"178 82 22 255"
@@ -3064,12 +3065,31 @@ Scheme
 				"antialias" "1"
 			}
 		}
+		ASFont10
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"10"
+				"antialias" "1"
+			}
+		}
 		ASFont12
 		{
 			"1"
 			{
 				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
 				"tall"		"12"
+				"antialias" "1"
+			}
+		}
+
+		ASFont14
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"14"
 				"antialias" "1"
 			}
 		}
@@ -3084,12 +3104,43 @@ Scheme
 			}
 		}
 
+		ASFont20
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"20"
+				"antialias" "1"
+			}
+		}
+
+		ASFont22
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"22"
+				"antialias" "1"
+			}
+		}
+
 		ASFont24
 		{
 			"1"
 			{
 				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
 				"tall"		"24"
+				"antialias" "1"
+			}
+		}
+
+		
+		ASFont26
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"26"
 				"antialias" "1"
 			}
 		}
@@ -3487,6 +3538,114 @@ Scheme
 		}
 	}
 
+	//Dropshadowed [Adult Swim] Font
+	ASFontshadowed4
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"4"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+		ASFontshadowed8
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"8"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+		ASFontshadowed12
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"12"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
+		ASFontshadowed16
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"16"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
+		ASFontshadowed20
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"20"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
+		ASFontshadowed24
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"24"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
+		ASFontshadowed32
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"32"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
+		ASFontshadowed36
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"36"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
+		ASFontshadowed42
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"42"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
+
+		ASFontshadowed48
+		{
+			"1"
+			{
+				"name"		"T輅汶整楣愠乏略‐潮攥湳颗⁂彈"
+				"tall"		"48"
+				"antialias" "1"
+				"dropshadow"	"1"
+			}
+		}
 	}
 
 

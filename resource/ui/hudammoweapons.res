@@ -1,3 +1,5 @@
+#base "spacer.res"
+
 "Resource/UI/HudAmmoWeapons.res"
 {
 	"HudWeaponAmmoBG"
@@ -38,19 +40,22 @@
 		"fieldName"		"AmmoInClip"
 		"font"			"VCRFont42"
 		"fgcolor"		"White"
-		"xpos"			"4"
-		"xpos_minmode"	"8"
-		"ypos"			"0"
-		"ypos_minmode"	"2"
-		"zpos"			"5"
+		"xpos"			"0"
+		"ypos"			"-53"
+		"zpos"			"1"
 		"wide"			"55"
 		"tall"			"40"
 		"tall_minmode"	"38"
 		"tall_lodef"	"45"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"south-east"	
+		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
+		"auto_wide_tocontents"	"1"
+		
+		"pin_to_sibling"		"spacer"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"3"
 		
 	}		
 	"AmmoInClipShadow"
@@ -59,23 +64,22 @@
 		"fieldName"		"AmmoInClipShadow"
 		"font"			"VCRFont42"
 		"fgcolor"		"Black"
-		"xpos"			"5"
-		"xpos_minmode"	"9"
-		"xpos_hidef"	"2"
-		"ypos"			"1"
-		"ypos_minmode"	"2"
-		"ypos_hidef"	"2"
-		"ypos_lodef"	"2"
-		"zpos"			"5"
+		"xpos"			"-2"
+		"ypos"			"-2"
+		"zpos"			"-1"
 		"wide"			"55"
 		"tall"			"40"
 		"tall_minmode"	"39"
 		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-east"	
+		"textAlignment"	"east"	
 		"labelText"		"%Ammo%"
+		"auto_wide_tocontents"	"1"
 		
+		"pin_to_sibling"		"AmmoInClip"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}						
 	"AmmoInReserve"
 	{
@@ -83,15 +87,20 @@
 		"fieldName"		"AmmoInReserve"
 		"font"			"VCRFont16"
 		"fgcolor"		"EllGreen"
-		"xpos"			"63"
-		"ypos"			"13"
+		"xpos"			"3"
+		"ypos"			"0"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"27"
 		"visible"		"1"
 		"enabled"		"1"
-		"textAlignment"	"south-west"		
+		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
+		"auto_wide_tocontents"	"1"
+
+		"pin_to_sibling"		"AmmoInClip"
+		"pin_corner_to_sibling"	"7"
+		"pin_to_sibling_corner"	"5"
 	}		
 	"AmmoInReserveShadow"
 	{
@@ -99,15 +108,20 @@
 		"fieldName"		"AmmoInReserveShadow"
 		"font"			"VCRFont16"
 		"fgcolor"		"Black"
-		"xpos"			"64"
-		"ypos"			"15"
+		"xpos"			"-1"
+		"ypos"			"-1"
 		"zpos"			"-1"
 		"wide"			"40"
 		"tall"			"27"
 		"visible"		"0"
 		"enabled"		"1"
-		"textAlignment"	"south-west"		
+		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
+		"auto_wide_tocontents"	"1"
+
+		"pin_to_sibling"		"AmmoInReserve"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 	}									
 	"AmmoNoClip"
 	{
@@ -116,7 +130,7 @@
 		"font"			"VCRFont42"
 		"fgcolor"		"White"
 		"xpos"			"0"
-		"ypos"			"2"
+		"ypos"			"-53"
 		"zpos"			"5"
 		"wide"			"84"
 		"wide_lodef"	"83"
@@ -127,6 +141,11 @@
 		"enabled"		"1"
 		"textAlignment"	"south-east"		
 		"labelText"		"%Ammo%"
+		"auto_wide_tocontents"	"1"
+		
+		"pin_to_sibling"		"spacer"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"3"
 		
 	}	
 	"AmmoNoClipShadow"
@@ -144,6 +163,11 @@
 		"enabled"		"1"
 		"textAlignment"	"south-east"		
 		"labelText"		"%Ammo%"
+		"auto_wide_tocontents"	"1"
+		
+		"pin_to_sibling"		"AmmoNoClip"
+		"pin_corner_to_sibling"	"0"
+		"pin_to_sibling_corner"	"0"
 		
 	}									
 }

@@ -9,6 +9,6 @@
 		"PositiveColor"			"0 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"ASFont12"
+		"delta_item_font"		"ASFont24"
 	}
 }

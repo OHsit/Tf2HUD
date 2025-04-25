@@ -8,11 +8,10 @@
 		"enabled" 		"1"
 		"xpos"			"5"	[$WIN32]
 		"ypos"			"350"
-		"ypos_hidef"		"245"
-		"wide"	 		"280"
-		"tall"	 		"120"
-		"PaintBackgroundType"	"2"
-		"Bgcolor_override"  "Black"
+		"wide"					"250"
+		"tall"					"100"
+		"PaintBackgroundType"	"0"
+		"bgcolor_override"		"0 0 0 255"
 	}
 
 	ChatInputLine
@@ -21,11 +20,10 @@
 		"fieldName" 		ChatInputLine
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"10"	[$WIN32]
-		"xpos"			"42"	[$X360]
-		"ypos"			"395"
-		"wide"	 		"260"
-		"tall"	 		"2"
+		"xpos"					"10"
+		"ypos"					"395"
+		"wide"					"195"
+		"tall"					"0"
 		"PaintBackgroundType"	"0"
 	}
 
@@ -53,11 +51,9 @@
 	{
 		"ControlName"		"RichText"
 		"fieldName"		"HudChatHistory"
-		"xpos"			"10"	[$WIN32]
-		"ypos"			"17"	[$WIN32]
-		"xpos"			"10"	[$X360]
-		"ypos"			"10"	[$X360]
-		"wide"	 		"260"
+		"xpos"			"0"	[$WIN32]
+		"ypos"			"0"	[$WIN32]
+		"wide"	 		"250"
 		"tall"			"75"
 		"wrap"			"1"
 		"autoResize"		"1"
@@ -66,7 +62,7 @@
 		"enabled"		"1"
 		"labelText"		""
 		"textAlignment"		"south-west"
-		"font"			"VCRFont12"
+		"font"			"ChatFont"
 		"maxchars"		"-1"
 	}
 }

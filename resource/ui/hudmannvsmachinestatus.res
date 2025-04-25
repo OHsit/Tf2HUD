@@ -219,7 +219,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../hud/color_panel_red"
+			"Fillcolor"     "FERed"
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"

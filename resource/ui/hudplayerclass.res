@@ -22,11 +22,18 @@
 		"zpos"			"2"
 		"wide"			"60"
 		"tall"			"60"
-		"visible"		"1"
+		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/class_scoutred"
 		"scaleImage"	"1"	
+
+		"if_mvm"
+		{
+		   "visible"		"1"
+		}
 	}
+
+
 	"PlayerStatusSpyImage"
 	{
 		"ControlName"	"CTFImagePanel"
