@@ -26,7 +26,7 @@
 	}
 	"TargetIDBG_Spec_Blue"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -42,7 +42,7 @@
 	}
 	"TargetIDBG_Spec_Red"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
 		"xpos"			"0"
 		"ypos"			"0"

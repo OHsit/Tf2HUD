@@ -14,7 +14,7 @@
 		"enabled"				  "1" 
 		"HealthBonusPosAdj"	"0"
 		"HealthDeathWarning"	"0.49"
-		"HealthDeathWarningColor"	"HUDDeathWarning"
+		"HealthDeathWarningColor"	"Red"
 	}	
 	"PlayerStatusHealthImage"
 	{
@@ -53,7 +53,7 @@
 		"wide"			"55"	[$WIN32]
 		"tall"			"55"	[$WIN32]
 		"visible"		"0"
-		"enabled"		"1"
+		"enabled"		"0"
 		"image"			"../hud/health_over_bg"
 		"scaleImage"	"1"	
 	}

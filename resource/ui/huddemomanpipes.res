@@ -180,6 +180,7 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
             "font"			"ASFont16"
+			"fgcolor_override" "Black"
 		}			
 	}				
 }

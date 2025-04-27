@@ -3185,6 +3185,24 @@ Scheme
 			}
 		}
 //VCR OSD Mono
+		VCRFont4
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"4"
+				"antialias" "1"
+			}
+		}
+		VCRFont8
+		{
+			"1"
+			{
+				"name"		"VCR OSD Mono"
+				"tall"		"8"
+				"antialias" "1"
+			}
+		}
 		VCRFont12
 		{
 			"1"
