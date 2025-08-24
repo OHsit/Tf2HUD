@@ -1,5 +1,5 @@
-#base "../resource/deltahud_scheme/sourcescheme_conosle.res"
-#base "../resource/deltahud_scheme/sourcescheme_netgraph.res"
+#base "deltahud_scheme/sourcescheme_conosle.res"
+#base "deltahud_scheme/sourcescheme_netgraph.res"
 Scheme
 {
     //////////////////////// COLORS ///////////////////////////
